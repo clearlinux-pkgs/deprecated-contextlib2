@@ -4,7 +4,7 @@
 #
 Name     : deprecated-contextlib2
 Version  : 0.5.5
-Release  : 47
+Release  : 48
 URL      : http://pypi.debian.net/contextlib2/contextlib2-0.5.5.tar.gz
 Source0  : http://pypi.debian.net/contextlib2/contextlib2-0.5.5.tar.gz
 Summary  : Backports and enhancements for the contextlib module
@@ -58,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1554307117
+export SOURCE_DATE_EPOCH=1554309450
 export MAKEFLAGS=%{?_smp_mflags}
 python2 setup.py build -b py2
 
