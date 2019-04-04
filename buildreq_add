@@ -1,7 +1,7 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-unittest2-legacypython
-traceback2-legacypython
-linecache2-legacypython
+deprecated-unittest2-legacypython
+deprecated-traceback2-legacypython
+deprecated-linecache2-legacypython
 six
-six-legacypython
+deprecated-six-legacypython
